@@ -1,0 +1,13 @@
+#my-custom-div {
+    background-color: #3316d8;
+    color: #FFF;
+    display: none;
+    position: fixed;
+    width: calc(80%);
+    margin-left: 10%;
+    top: 10vh;
+    text-align: center;
+    border-radius: 6px;
+    height: 40px;
+    line-height: 40px;
+}
