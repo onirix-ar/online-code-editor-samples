@@ -1,0 +1,11 @@
+#ox-marker-detection-bubble {
+  background-color: #093997;
+}
+
+#ox-marker-detection-bubble span {
+  display: none;
+}
+
+#ox-marker-detection-bubble::after {
+  content: "Scan this image!";
+}

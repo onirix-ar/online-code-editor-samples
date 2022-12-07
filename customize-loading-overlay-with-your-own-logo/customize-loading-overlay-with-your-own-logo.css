@@ -1,0 +1,13 @@
+#webar-powered-img {
+  display: none;
+}
+#overlay {
+  background-color: #093997 !important;
+}
+
+#my-custom-logo {
+  position: absolute;
+  width: 100px;
+  bottom: 150px;
+  left: calc(50% - 50px);
+}

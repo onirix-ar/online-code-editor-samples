@@ -1,0 +1,18 @@
+#ox-markers-list {
+  display: none;
+}
+#ox-marker-detection-guides {
+  display: none;
+}
+#ox-marker-detection-controls {
+  display: none;
+}
+#ox-marker-detection-view-images {
+  display: none;
+}
+#ox-marker-detection__container {
+  display: none;
+}
+#ox-marker-detection-controls + ox-button.web-ar {
+  display: none;
+}

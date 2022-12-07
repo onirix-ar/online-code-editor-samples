@@ -1,16 +1,15 @@
-
 #ox-progress-bar-container {
-    background-color: #5ccb5f !important;
+  background-color: #5ccb5f !important;
 }
 
 #ox-progress-bar {
-    background-color: #98ff96 !important;
+  background-color: #98ff96 !important;
 }
 
 #ox-progress-loading-text {
-    color: #003400 !important;
+  color: #003400 !important;
 }
 
 #ox-progress-percentage-text {
-    color: #003400 !important;
+  color: #003400 !important;
 }

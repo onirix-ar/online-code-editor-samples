@@ -1,16 +1,16 @@
 #webar-back-button {
-    width: unset !important;
-    height: 40px !important;
-    background-color: #580088;
-    border-radius: 6px;
-    color: #fff;
-    padding: 4px 10px;
+  width: unset !important;
+  height: 40px !important;
+  background-color: #580088;
+  border-radius: 6px;
+  color: #fff;
+  padding: 4px 10px;
 }
 
 #webar-back-button::after {
-    content: "Back to map";
+  content: "Back to map";
 }
 
 #webar-back-button svg-icon {
-    display: none;
+  display: none;
 }
