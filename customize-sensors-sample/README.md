@@ -4,6 +4,7 @@
 
 <p style = 'text-align:center;'>
 Using this css you can change the styles of the sensors panel screen.
+<br>
 <img
   src="./sensors.png"
   alt="Change sensors screen"
