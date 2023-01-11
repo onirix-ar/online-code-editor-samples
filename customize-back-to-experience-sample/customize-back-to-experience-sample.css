@@ -1,0 +1,51 @@
+#webar-session-end-panel {
+    background-color: #9a6740 !important;
+}
+
+.powered-by {
+    display: none !important;
+}
+
+#webar-session-end-panel .content {
+    margin: 100px auto !important;
+}
+
+#webar-session-end-panel .content p {
+    text-indent: -9999px;
+    line-height: 0;
+}
+
+#webar-session-end-panel .content p:after {
+    text-indent: 0;
+    display: block;
+    line-height: initial;
+    content: "You have left the experience";
+}
+
+#webar-session-end-panel ox-button button {
+    position: relative;
+    border: 3px solid #9a6740 !important;
+    background: transparent;
+    padding: 10px 0px !important;
+    width: 100% !important;
+    font-weight: 100 !important;
+    color: transparent;
+}
+
+#webar-session-end-panel ox-button button:after {
+    content: "Play again";
+    position: absolute;
+    color: #9a6740;
+    font-weight: bold;
+    font-size: 20px;
+    left: 0;
+    right: 0;
+}
+
+#webar-session-end-panel .content svg-icon {
+    padding: 23px 28px;
+    border-radius: 200px;
+    background-color: #9a674080;
+    content: url(https://www.onirix.com/ox-experiences/onirix/x.svg);
+    height: 100px;
+}
