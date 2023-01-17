@@ -1,6 +1,6 @@
-# Embed SDK show html onload
+# Embed SDK show html on load
 
-lorem
+Using this example you can show customizable `html` elements over the scene when it's loading. Also, you can modify these elements after the scene was already loaded.
 
 <p style = 'text-align:center;'>
   <image

@@ -1,11 +1,11 @@
-# Communicate iframe parent sample
+# Communicate iframe parent
 
 lorem
 
 <p style = 'text-align:center;'>
   <image
-    src="communicate-iframe-parent-sample.png"
-    alt="Communicate iframe parent sample"
-    caption="Communicate iframe parent sample" 
+    src="communicate-iframe-parent.png"
+    alt="Communicate iframe parent"
+    caption="Communicate iframe parent" 
     style="border-radius: 12px;">
 </p>

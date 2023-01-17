@@ -1,11 +1,11 @@
-# Change reset sample
+# Change reset
 
 lorem
 
 <p style = 'text-align:center;'>
   <image
-    src="change-reset-sample.png"
-    alt="Change reset sample"
-    caption="Change reset sample" 
+    src="change-reset.png"
+    alt="Change reset"
+    caption="Change reset" 
     style="border-radius: 12px;">
 </p>

@@ -1,11 +1,11 @@
-# Customize permissions panel sample
+# Customize permissions panel
 
-lorem
+Using this example you can customize how the permissions panel is going to look like before the scene is loaded.
 
 <p style = 'text-align:center;'>
   <image
-    src="customize-permissions-panel-sample.png"
-    alt="Customize permissions panel sample"
-    caption="Customize permissions panel sample" 
+    src="customize-permissions-panel.png"
+    alt="Customize permissions panel"
+    caption="Customize permissions panel" 
     style="border-radius: 12px;">
 </p>

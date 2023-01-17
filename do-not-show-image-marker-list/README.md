@@ -1,6 +1,6 @@
 # Do not show image marker list
 
-lorem
+Using this example you can hide the marker list on an image tracking scene when this one is loaded.
 
 <p style = 'text-align:center;'>
   <image
