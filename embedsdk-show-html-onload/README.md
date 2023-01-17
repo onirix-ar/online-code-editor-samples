@@ -1,10 +1,11 @@
 # Embed SDK show html onload
 
-## Description
+lorem
 
 <p style = 'text-align:center;'>
-<image
-  src="embedsdk-show-html-onload.png"
-  alt="Add a screenshot capture button"
-  caption="Add a screenshot capture button" >
+  <image
+    src="embedsdk-show-html-onload.png"
+    alt="Embed SDK show html onload"
+    caption="Embed SDK show html onload" 
+    style="border-radius: 12px;">
 </p>

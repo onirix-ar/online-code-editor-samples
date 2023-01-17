@@ -1,3 +1,0 @@
-# Progress bar sample
-
-## Description

@@ -1,10 +1,11 @@
 # Customize permissions panel sample
 
-## Description
+lorem
 
 <p style = 'text-align:center;'>
-<image
-  src="customize-permissions-panel-sample.png"
-  alt="Add a screenshot capture button"
-  caption="Add a screenshot capture button" >
+  <image
+    src="customize-permissions-panel-sample.png"
+    alt="Customize permissions panel sample"
+    caption="Customize permissions panel sample" 
+    style="border-radius: 12px;">
 </p>
