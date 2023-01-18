@@ -26,7 +26,7 @@
 }
 
 .permission-panel .btn {
-  background: #cd2027 !important;
+  background: #1144aa !important;
   color: transparent !important;
 }
 
@@ -36,4 +36,8 @@
   color: #fff !important;
   content: "custom ok";
   width: 100%;
+}
+
+#overlay {
+  background-color: #093997 !important;
 }

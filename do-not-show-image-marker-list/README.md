@@ -1,10 +1,11 @@
 # Do not show image marker list
 
-## Description
+Using this example you can hide the marker list on an image tracking scene when this one is loaded.
 
 <p style = 'text-align:center;'>
-<image
-  src="do-not-show-image-marker-list.png"
-  alt="Add a screenshot capture button"
-  caption="Add a screenshot capture button" >
+  <image
+    src="do-not-show-image-marker-list.png"
+    alt="Do not show image marker list"
+    caption="Do not show image marker list" 
+    style="border-radius: 12px;">
 </p>
