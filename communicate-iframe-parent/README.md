@@ -1,6 +1,6 @@
 # Communicate iframe parent
 
-lorem
+Using this example you can connect the iframe with a parent component.
 
 <p style = 'text-align:center;'>
   <image

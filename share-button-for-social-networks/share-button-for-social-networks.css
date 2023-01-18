@@ -1,0 +1,10 @@
+#share-button {
+  position: absolute;
+  top: 50px;
+  left: 145px;
+  background: #df2a54;
+  border-radius: 20px;
+  padding: 10px;
+  color: black;
+  width: max-content;
+}

@@ -1,10 +1,10 @@
 # Progress bar
 
-lorem
+Using this example you can change the styles of the Progress bar at the bottom of the screen when the scene is loading.
 
 <p style = 'text-align:center;'>
   <image
-    src="map-locations-listener.png"
+    src="progress-bar.png"
     alt="Progress bar"
     caption="Progress bar" 
     style="border-radius: 12px;">

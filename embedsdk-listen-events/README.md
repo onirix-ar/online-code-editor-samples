@@ -1,6 +1,6 @@
 # Embed SDK listen events
 
-Using this example you can log in the browser console all the events you are subscribed from the Onirix Embed SDK.
+Using this example you can log in on the browser console all the events you are subscribed from the Onirix Embed SDK.
 
 <p style = 'text-align:center;'>
   <image

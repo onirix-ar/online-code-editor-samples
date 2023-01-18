@@ -1,10 +1,10 @@
 #webar-back-button {
   width: unset !important;
   height: 40px !important;
-  background-color: #580088;
-  border-radius: 6px;
-  color: #fff;
-  padding: 4px 10px;
+  background-color: #580088 !important;
+  border-radius: 6px !important;
+  color: #fff !important;
+  padding: 4px 10px !important;
 }
 
 #webar-back-button::after {

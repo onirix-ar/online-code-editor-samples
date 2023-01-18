@@ -1,5 +1,3 @@
-const script = document.createElement("script");
-
 const addListener = (htmlCollection) => {
   for (let i = 0; i < htmlCollection.length; i++) {
     const item = htmlCollection.item(i);
@@ -26,24 +24,13 @@ const getLocations = () => {
     console.log(`onx-sample -> ${new Date().toISOString()} Lotations found`);
     return true;
   } else {
-    console.log(
-      `onx-sample -> ${new Date().toISOString()} Lotations not found`
-    );
+    console.log(`onx-sample -> ${new Date().toISOString()} Lotations not found`);
     return false;
   }
 };
 
-script.src = "https://unpkg.com/@onirix/embed-sdk";
-script.onload = async () => {
-  const embedSDK = new OnirixEmbedSDK();
-  embedSDK.connect();
-
-  if (!getLocations()) {
-    const interval = window.setInterval(() => {
-      if (getLocations()) {
-        clearInterval(interval);
-      }
-    }, 1000);
+const interval = window.setInterval(() => {
+  if (getLocations()) {
+    clearInterval(interval);
   }
-};
-document.head.appendChild(script);
+}, 1000);

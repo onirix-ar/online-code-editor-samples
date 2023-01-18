@@ -1,6 +1,6 @@
 # Map locations listener
 
-lorem
+Using this example you can log in on the browser console all the events you are listening to the available map in your scene. Also, you can retrieve information from the onClick event on each of those locations from the map.
 
 <p style = 'text-align:center;'>
   <image

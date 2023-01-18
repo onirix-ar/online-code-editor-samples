@@ -1,0 +1,46 @@
+#overlay {
+  background-color: #f5ebdc !important;
+}
+
+#ox-permissions-dialog-title,
+#ox-permissions-dialog-message {
+  text-indent: -9999px;
+  line-height: 0;
+}
+
+#ox-permissions-dialog-title:after,
+#ox-permissions-dialog-message:after {
+  text-indent: 0;
+  display: block;
+  line-height: initial;
+}
+
+#ox-permissions-dialog-title:after {
+  content: "Need access to video camera";
+}
+
+#ox-permissions-dialog-message:after {
+  content: "To be able to see the AR experience it's necessary to have access to the device's camera.";
+}
+
+#ox-permissions-dialog button {
+  position: relative;
+  background: #9a6740 !important;
+  border-radius: 26px !important;
+  padding: 10px 0px !important;
+  width: 50% !important;
+  font-weight: 100 !important;
+  color: transparent !important;
+}
+
+#ox-permissions-dialog button:after {
+  content: "Allow";
+  position: absolute;
+  color: white;
+  left: 0;
+  right: 0;
+}
+
+#webar-powered-img {
+  display: none !important;
+}

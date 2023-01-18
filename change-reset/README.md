@@ -1,6 +1,6 @@
-# Change reset
+# Change Reset
 
-lorem
+Using this example you can customize the `Reset` Menu item button from the Context Menu.
 
 <p style = 'text-align:center;'>
   <image

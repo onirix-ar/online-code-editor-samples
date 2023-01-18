@@ -1,17 +1,13 @@
-const script = document.createElement("script");
-script.src = "https://unpkg.com/@onirix/embed-sdk";
-script.onload = async () => {
-  const embedSDK = new OnirixEmbedSDK();
-  embedSDK.connect();
+import OnirixEmbedSDK from "https://unpkg.com/@onirix/embed-sdk@1.2.3/dist/ox-embed-sdk.esm.js";
+const embedSDK = new OnirixEmbedSDK();
+await embedSDK.connect();
 
-  embedSDK.subscribe(OnirixEmbedSDK.Events.SCENE_LOAD_START, (params) => {
-    console.log(`Scene ${params.oid} is loading.`, params);
-    document.getElementById("my-custom-div").style.display = "block";
-  });
+embedSDK.subscribe(OnirixEmbedSDK.Events.SCENE_LOAD_START, (params) => {
+  console.log(`Scene ${params.oid} is loading.`, params);
+  document.getElementById("my-custom-div").style.display = "block";
+});
 
-  embedSDK.subscribe(OnirixEmbedSDK.Events.SCENE_LOAD_END, (params) => {
-    console.log(`Scene ${params.oid} is loaded.`, params);
-    document.getElementById("my-custom-div").innerText = "Your custom text";
-  });
-};
-document.head.appendChild(script);
+embedSDK.subscribe(OnirixEmbedSDK.Events.SCENE_LOAD_END, (params) => {
+  console.log(`Scene ${params.oid} is loaded.`, params);
+  document.getElementById("my-custom-div").innerText = "Your custom text";
+});
