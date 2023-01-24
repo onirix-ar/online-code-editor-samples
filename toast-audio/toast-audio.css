@@ -1,0 +1,110 @@
+
+#ox-audio {
+    width: 300px;
+    height: 58px;
+    border-radius: 6px;
+    box-shadow: 0 2px 12px 0 rgb(33 31 31 / 24%);
+    background-color: #fff;
+    bottom: 0;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    display: none;
+}
+
+#ox-audio__container{
+    display: grid;
+    grid-template-columns: 0.01fr 1fr 0.15fr;
+    -webkit-animation: fade 0.3s linear;
+    -moz-animation: fade 0.3s linear;
+    -ms-animation: fade 0.3s linear;
+    -o-animation: fade 0.3s linear;
+    animation: fade 0.3s linear;
+}
+
+#ox-audio__title-bold {
+    font-weight: bold;
+    margin: 0;
+}
+
+#ox-audio__title{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+#ox-audio__subtitle{
+    font-size: 12px;
+}
+
+#ox-audio__icon {
+    display: flex;
+    align-items: center;
+    height: 58px;
+    margin-right: -10px;
+}
+
+#ox-audio__close {
+    display: flex;
+    align-items: center;
+    margin-right: 2px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+/*Animation*/
+@keyframes fade  {
+    from {
+        opacity: 0;
+      }
+    
+      to {
+        opacity: 1;
+      }
+}
+    
+
+/* Firefox < 16 */
+@-moz-keyframes fade {
+    from {
+        opacity: 0;
+      }
+    
+      to {
+        opacity: 1;
+      }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fade {
+    from {
+        opacity: 0;
+      }
+    
+      to {
+        opacity: 1;
+      }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fade {
+    from {
+        opacity: 0;
+      }
+    
+      to {
+        opacity: 1;
+      }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fade {
+    from {
+        opacity: 0;
+      }
+    
+      to {
+        opacity: 1;
+      }
+}
