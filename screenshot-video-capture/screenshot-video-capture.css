@@ -1,0 +1,17 @@
+.ox-buttons {
+    position: fixed;
+    bottom: 5vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.ox-buttons button {
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    padding: 0px 20px;
+    background-color: #580088;
+    color: #FFF;
+}
