@@ -17,3 +17,4 @@
 - [Progress bar](progress-bar/README.md)
 - [Share button for social networks](share-button-for-social-networks/README.md)
 - [Audio warning](toast-audio/README.md)
+- [Static/Dynamic button](static-dynamic-button/README.md)
