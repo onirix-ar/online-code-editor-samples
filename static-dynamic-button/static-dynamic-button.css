@@ -1,0 +1,14 @@
+#injection-root {
+    z-index: 22 !important;
+}
+
+.button {
+    position: fixed;
+    top: 1vh;
+    left: 5vw;
+    padding: 14px;
+    border-radius: 12px;
+    color: white;
+    background-color: #ee0979;
+    font-weight: 600;
+}

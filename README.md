@@ -17,3 +17,4 @@
 - [Progress bar](progress-bar/)
 - [Share button for social networks](share-button-for-social-networks/)
 - [Audio warning](toast-audio/)
+- [Static/Dynamic button](static-dynamic-button/)
