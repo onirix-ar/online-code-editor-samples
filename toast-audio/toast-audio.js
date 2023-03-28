@@ -22,7 +22,7 @@ const availableTime = 3000;
 /**
 * It's execute when the scene is totally load and it start the game
 */
-embedSDK.subscribe(OnirixEmbedSDK.Events.SCENE_LOAD_START, async (params) => {   
+embedSDK.subscribe(OnirixEmbedSDK.Events.SCENE_LOAD_END, async (params) => {   
     document.getElementById(OX_AUDIO).style.display = 'block';
     setTimeout(() => {
         document.getElementById(OX_AUDIO).style.display = 'none';

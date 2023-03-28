@@ -1,8 +1,0 @@
-#screenshot-button {
-  position: fixed;
-  bottom: 50px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100px;
-  height: auto;
-}
