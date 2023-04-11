@@ -1,0 +1,16 @@
+#webar-switch-to-ar-button {
+  visibility: hidden;
+  top: 10px !important;
+  left: 0px !important;
+}
+#webar-switch-to-ar-button:after {
+  content:'GO TO AR'; 
+  visibility: visible;
+  display: block;
+  position: absolute;
+  background-color: #ee0979;
+  color: white;
+  border-radius: 15px;
+  border: none;
+  padding: 10px;
+}
