@@ -1,0 +1,22 @@
+.ox-marker-detection__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ox-marker-detection__container > .ox-webar__bubble > span {
+    display: none;
+}
+
+.ox-marker-detection__container > .ox-detection__img {
+    display: none;
+}
+
+/*
+Copy this CSS rule for each marker on your project. Then, replace "Your scene OID" with the OID of your scenes between
+double quotes. Change 'Some hint about the marker.' to the hint you want to give to the user for each scene between
+single quotes.
+*/
+.ox-marker-detection__container[data-scene-oid="Your scene OID"] > .ox-webar__bubble::before {
+    content: 'Some hint about the marker.';
+}

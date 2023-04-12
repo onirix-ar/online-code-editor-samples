@@ -1,4 +1,4 @@
-# Customize sensors
+# Toast audio
 
 Using this example you can indicate that an experience has audio.
 
