@@ -23,4 +23,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Progress bar
 - Share button for social networks
 - Audio warning
-  
+- Static/Dynamic button
+- View in AR button
+- Hints instead of markers
