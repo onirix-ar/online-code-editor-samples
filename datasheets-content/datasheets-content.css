@@ -1,0 +1,26 @@
+.ox-content__panel .ox-content__image {
+    height: 350px;
+    max-height: 350px;
+}
+
+.ox-content__panel button {
+    background-color: white !important;
+}
+
+.ox-content__panel button svg-icon svg g {
+    fill: #cd1751;
+}
+
+.ox-content {
+    background-color: black !important;
+}
+
+.ox-content__content h1,  .ox-content__content pre{
+    color: white;
+    font-family: monospace;
+}
+.ox-content__content a {
+    color: #cd1751 !important;
+    font-family: monospace;
+    font-style: normal !important;
+}

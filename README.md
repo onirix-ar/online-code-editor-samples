@@ -21,3 +21,4 @@
 - [View in AR button](view-ar-button/README.md)
 - [Hints instead of markers](hints-instead-of-markers/README.md)
 - [Send data to Firebase](send-data-to-firebase/README.md)
+- [Content datasheets](datasheets-content/README.md)
