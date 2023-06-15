@@ -2,15 +2,18 @@ const synth = window.speechSynthesis;
 const spanish_text = "Usted esta escuchando un texto en español.";
 const english_text = "You are listening to a text in English.";
 
-function readSpanish() {
-    const utterThis = new SpeechSynthesisUtterance(spanish_text);
-    utterThis.lang = 'es-ES'
-    synth.speak(utterThis);
-}
-
-function readEnglish() {
-    const utterThis = new SpeechSynthesisUtterance(english_text);
-    utterThis.lang = 'en-GB'
+/**
+ * Generates an object of type SpeechSynthensisUtterance
+ * assigning the text to be read and the language.
+ * If the language is uninformed, the language of the
+ * browser is taken.
+ * 
+ * @param   text to read
+ * @param   language in which to read
+ */
+function oxReadString(text, language = navigator.language) {
+    const utterThis = new SpeechSynthesisUtterance(text);
+    utterThis.lang = language
     synth.speak(utterThis);
 }
 
@@ -28,8 +31,8 @@ await embedSDK.connect();
  */
 embedSDK.subscribe(OnirixEmbedSDK.Events.ELEMENT_CLICK, (params) => {
     if (params.name == "es") {
-        readSpanish();
+        oxReadString(spanish_text, "es-ES");
     } else {
-        readEnglish();
+        oxReadString(english_text, "en-GB");
     }
 })
