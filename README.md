@@ -22,3 +22,5 @@
 - [Hints instead of markers](hints-instead-of-markers/README.md)
 - [Send data to Firebase](send-data-to-firebase/README.md)
 - [Embed Onirix experiences in other web](embed-experience/README.md)
+- [Content datasheets](datasheets-content/README.md)
+- [Web Speech API](web-speech-api/README.md)
