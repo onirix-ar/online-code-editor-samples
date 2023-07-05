@@ -76,7 +76,8 @@ class OxSpeech {
     /**
      * Read the text. In case Amazon Polly is used, it calls to speak function inirialized in the constructor.
      * If language is uninformed the language of the browser is taken.
-     * The available voices will depend on the configuration you have in Amazon Polly. Voice list: https://docs.aws.amazon.com/polly/latest/dg/voicelist.html
+     * The available voices will depend on the configuration you have in Amazon Polly.
+     * Voice list: https://docs.aws.amazon.com/polly/latest/dg/voicelist.html (only use the ones with standard voice)
      * 
      * @param   text to read
      * @param   language code
@@ -128,7 +129,7 @@ embedSDK.subscribe(OnirixEmbedSDK.Events.ELEMENT_CLICK, (params) => {
     if (params.name == "es") {
         oxSpeech.textToSpeech(spanish_text, "es-ES", "Enrique");
     } else if(params.name == "en") {
-        oxSpeech.textToSpeech(english_text, "en-GB", "Enrique");
+        oxSpeech.textToSpeech(english_text, "en-GB", "Brian");
     } else if (params.name == "stop") {
         oxSpeech.stop();
     }
