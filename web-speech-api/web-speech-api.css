@@ -1,0 +1,22 @@
+#stop {
+    margin-right: 20px;
+}
+
+#buttons {
+    position: fixed;
+    bottom: 30px;
+    right: 0;
+    display: flex;
+    left: 0;
+    justify-content: center;
+}
+
+
+button {
+    background: black;
+    border: none;
+    padding: 10px 50px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
