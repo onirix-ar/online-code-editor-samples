@@ -24,3 +24,5 @@
 - [Embed Onirix experiences in other web](embed-experience/README.md)
 - [Content datasheets](datasheets-content/README.md)
 - [Web Speech API](web-speech-api/README.md)
+- [Load element lazily](load-element-lazily/README.md)
+- [Create element dynamically](create-element-dynamically/README.md)
