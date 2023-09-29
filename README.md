@@ -26,3 +26,4 @@
 - [Web Speech API](web-speech-api/README.md)
 - [Load element lazily](load-element-lazily/README.md)
 - [Create element dynamically](create-element-dynamically/README.md)
+- [Preview and share snapshot](preview-share-snapshot/README.md)
