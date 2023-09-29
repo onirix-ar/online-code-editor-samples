@@ -35,30 +35,43 @@ iframe {
 
 .oex-main ul {
     background-color: #FFF;
-    width: calc(100% - 60px);
+    width: 100%;
     border-radius: 10px;
     color: #000;
-    padding: 30px;
+    padding: 0px;
     list-style-type: none;
     margin: 0px;
 }
 
 .oex-main ul li {
     object-fit: contain;
-    border-radius: 12px;
-    background-color: #ee0979;
     font-weight: 600;
-    text-align: center;
-    color: #fff;
-    padding: 12px;
+    text-align: left;
+    color: #000;
+    padding: 20px;
+    position: relative;
+    cursor: pointer;
+    z-index: 0;
 }
 
-.oex-main ul li:hover {
-    background-image: linear-gradient(90deg,#ff3f4a 8%,#ff077c 100%);
+.oex-main ul li:hover::before {
+    opacity: 1;
+}
+
+.oex-main ul li::before {
+    display: block;
+    content: "";
+    position: absolute;
+    inset: 8px;
+    z-index: -1;
+    background-color: #f2f1f3;
+    opacity: 0;
+    border-radius: 6px;
+    transition: opacity .2s ease-in-out;
 }
 
 .oex-main ul li:not(:last-child) {
-    margin-bottom: 12px;
+    border-bottom: 1px solid #c2c2c2;
 }
 
 .oex-hide {

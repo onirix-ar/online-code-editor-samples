@@ -10,7 +10,17 @@
 
 Using this example you will be able to add your Onirix Studio experiences to your website.
 
-You just have to replace the urls of the `experienceUrls` array that you will find in the [embed-experience.js](embed-experience.js) file with the urls of your experiences.
+You must add a `<li>` tag for each experience you want to add to the menu.
+The text that will be displayed is the text of the li element, **not the name of the project in Studio**.
+
+```
+<li data-expIdx="3">
+  Onirix Hunt: Numbers
+</li>
+```
+
+Each `<li>` tag must have a `data-expIdx` attribute. 
+The value of this attribute will be the position in the `experienceUrls` array that you will find in the [embed-experience.js](embed-experience.js) file with the urls of your experiences. 
 
 You will find the URLs of your experiences in the "share" menus of Onirix Studio.
 
