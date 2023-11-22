@@ -1,0 +1,25 @@
+<div id="top-bar" class="hidden">
+     <div class="ox_logos_block">
+         <img class="logo" src="https://www.onirix.com/ox-experiences/onirix/onirix-new_logo.svg" alt="Onirix logo"/>
+         <span>+</span>        
+         <img class="logo" src="https://www.onirix.com/ox-experiences/onirix/cgp-logo.png" alt="Chat gpt logo"/>
+     </div>
+ </div>
+ 
+ <button id="voice-button" class="button hidden">Voice</button>
+ <button id="text-button" class="button hidden">Text</button>
+ 
+ <form id="text-form" class="faded">
+     <textarea id="question-text"></textarea>
+     <button id="close-text-form" type="button">
+         <img src="https://www.onirix.com/ox-experiences/onirix/close-bg.svg" alt="Close"/>
+     </button>
+     <button id="submit-text-form" type="submit">Send</button>
+ </form>
+ 
+ <div id="status" class="Listening hidden">
+     <span class="status-name for-listening">Listening...</span>
+     <span class="status-name for-thinking">Thinking...</span>
+     <div class="status-icon for-listening" id="microphone-icon"></div>
+     <div class="status-icon for-thinking"><div class="spinner"></div></div>
+ </div>
