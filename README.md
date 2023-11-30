@@ -2,7 +2,6 @@
 
 ## List of examples
 
-- [Add a screenshot capture button](add-screenshot-capture-button/README.md)
 - [Add a watermark logo](add-watermark-logo/README.md)
 - [Change color and text of marker preview](change-color-and-text-of-marker-preview/README.md)
 - [Communicate iframe parent](communicate-iframe-parent/README.md)
@@ -27,3 +26,4 @@
 - [Load element lazily](load-element-lazily/README.md)
 - [Create element dynamically](create-element-dynamically/README.md)
 - [Preview and share snapshot](preview-share-snapshot/README.md)
+- [Assistant with ChatGPT sample](sample-assistant-with-chatgpt/README.md)
