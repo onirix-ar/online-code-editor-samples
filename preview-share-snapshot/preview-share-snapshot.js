@@ -164,7 +164,7 @@ class OxExperienceUi {
  */
 import OnirixEmbedSDK from "https://unpkg.com/@onirix/embed-sdk@latest/dist/ox-embed-sdk.esm.js";
 
-const embedSDK = new OnirixEmbedSDK(null, "https://stage.onirix.com");
+const embedSDK = new OnirixEmbedSDK();
 embedSDK.connect();
 
 const oxExperienceUi = new OxExperienceUi();
