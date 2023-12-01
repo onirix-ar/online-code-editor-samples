@@ -80,7 +80,7 @@ class OxSpeech {
 
         if (useAmazon) {
             if (params.region == "" || params.credential == "") {
-                console.log("Error: region and credential must be informed.")
+                console.error("Error: region and credential must be informed.")
             } else {
                 const script = document.createElement("script");
                 script.src = "https://sdk.amazonaws.com/js/aws-sdk-2.1401.0.min.js";
@@ -191,7 +191,7 @@ class OxSpeech {
  * Onirix Embed SDK allows you to listen to events and control the scene when embedding experiences in a custom domain or from the online code editor.
  * For more information visit https://docs.onirix.com/onirix-sdk/embed-sdk
  */
-import OnirixEmbedSDK from "https://unpkg.com/@onirix/embed-sdk@1.2.3/dist/ox-embed-sdk.esm.js";
+import OnirixEmbedSDK from "https://unpkg.com/@onirix/embed-sdk@latest/dist/ox-embed-sdk.esm.js";
 const embedSDK = new OnirixEmbedSDK();
 await embedSDK.connect();
 const oxExperienceUi = new OxExperienceUi();

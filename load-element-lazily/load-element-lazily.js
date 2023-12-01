@@ -6,5 +6,5 @@ embedSDK.connect();
 embedSDK.subscribe(OnirixEmbedSDK.Events.SCENE_CLICK, async (params) => {
     console.log('Loading element.')
     await embedSDK.loadElement('YOUR ELEMENT OID');
-    console.log('element loaded.');
+    console.log('Element loaded.');
 });

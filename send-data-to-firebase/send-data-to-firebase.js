@@ -1,6 +1,7 @@
 
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
 import { getFirestore, addDoc, collection } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-firestore-lite.js";
+import OnirixEmbedSDK from "https://unpkg.com/@onirix/embed-sdk@latest/dist/ox-embed-sdk.esm.js";
 
 /**
  * OxFirebase allows you to comunicates with the Firebase API and store data in Firestore.
