@@ -1,0 +1,57 @@
+/**
+ * Custom controls styles.
+ */
+ .my-custom-controls {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}
+
+.my-custom-controls--show {
+    display: flex;
+}
+
+.my-custom-controls button {
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: #580088;
+    padding: 10px;
+    color: #FFF;
+}
+
+.my-custom-controls button:last-child {
+    margin-bottom: 0px;
+}
+
+/**
+ * During video capture we hide all buttons except the stop recording button.
+ */
+body.ox-screen-capture:not(.ox-screen-capture--in-progress) .my-custom-controls #my-video-stop {
+    display: none;
+}
+
+body.ox-screen-capture.ox-screen-capture--in-progress .my-custom-controls button:not(#my-video-stop) {
+    display: none;
+}
+
+/**
+ * Preview component custom styles
+ */
+body.ox-screen-capture .ox-screen-capture__preview > div div > button {
+    border-radius: 8px;
+    border: 1px solid #580088;
+    background-size: 50%;
+    background-position: center center;
+    width: 22px;
+    height: 22px;
+}
+
+body.ox-screen-capture .ox-screen-capture__preview {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+body.ox-screen-capture .ox-screen-capture__preview > div {
+    border: 3px solid #580088;
+}
