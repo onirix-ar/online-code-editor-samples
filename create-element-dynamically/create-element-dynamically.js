@@ -1,4 +1,4 @@
-import OnirixEmbedSDK from "https://unpkg.com/@onirix/embed-sdk@latest/dist/ox-embed-sdk.esm.js";
+import OnirixEmbedSDK from "https://www.unpkg.com/@onirix/embed-sdk@1.8.0/dist/ox-embed-sdk.esm.js";
 import uuid from "https://unpkg.com/uuid@latest/dist/esm-browser/v4.js";
 
 const embedSDK = new OnirixEmbedSDK();

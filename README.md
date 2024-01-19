@@ -31,6 +31,10 @@
 - [Take photos and video recording](ox-screen-capture-default-ui)
 - [Custom controls and customize preview component](ox-screen-capture-custom-ui)
 
+### Onirix Camera Controls Module
+
+- [Moving to a position on scene load](ox-camera-controls-move-on-load)
+
 ### Integration of other services into your onirix experience
 
 - [Assistant with ChatGPT sample](sample-assistant-with-chatgpt)
