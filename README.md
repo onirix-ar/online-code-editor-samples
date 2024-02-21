@@ -55,3 +55,7 @@
 
 - [Load element lazily](load-element-lazily)
 - [Create element dynamically](create-element-dynamically)
+
+### Modules & Datastore
+
+- [Get product info example](get-product-info)
