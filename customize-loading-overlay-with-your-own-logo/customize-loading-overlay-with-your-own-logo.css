@@ -1,14 +1,43 @@
-#webar-powered-img {
+/**
+ * Hide Onirix icon and default loading.
+ */
+#webar-powered-img, #overlay svg#loading {
   display: none;
 }
 
+/**
+ * Change background color.
+ */
 #overlay {
   background-color: #093997 !important;
 }
 
-#my-custom-logo {
+/**
+ * Add a loading gif.
+ */
+#overlay::before {
+  content: '';
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  top: calc(50% - 60px);
+  left: calc(50% - 60px);
+  background-image: url(https://www.onirix.com/ox-experiences/onirix/generic-spinner.gif);
+  background-repeat: no-repeat;
+  background-size: 120px 120px;
+}
+
+/**
+ * Add custom logo.
+ */
+#overlay::after {
+  content: '';
   position: absolute;
   width: 100px;
-  bottom: 150px;
+  height: 20px;
+  bottom: 130px;
   left: calc(50% - 50px);
+  background-image: url(https://www.onirix.com/docs/sample-logo.svg);
+  background-repeat: no-repeat;
+  background-size: 100px 20px;
 }
