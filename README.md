@@ -15,6 +15,7 @@
 - [Progress bar](progress-bar)
 - [View in AR button](view-ar-button)
 - [Content datasheets](datasheets-content)
+- [Customize surface placeholder](customize-surface-placeholder)
 
 ### Onirix Embed SDK
 
