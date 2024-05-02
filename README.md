@@ -21,6 +21,7 @@
 
 - [Embed SDK listen events](embedsdk-listen-events)
 - [Embed SDK show html onload](embedsdk-show-html-onload)
+- [Embed SDK limiting transformation controls to specific elements](embedsdk-block-transform-controls)
 
 ### Embed Onirix experiences in other web
 
