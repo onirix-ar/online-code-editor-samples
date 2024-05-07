@@ -16,6 +16,7 @@
 - [View in AR button](view-ar-button)
 - [Content datasheets](datasheets-content)
 - [Customize surface placeholder](customize-surface-placeholder)
+- [Customize scene selection menu](customize-scene-menu)
 
 ### Onirix Embed SDK
 

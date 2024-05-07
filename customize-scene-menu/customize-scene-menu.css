@@ -1,0 +1,38 @@
+#injection-root {
+    z-index: 2 !important;
+}
+
+
+#my_custom_div {
+    position: fixed;
+    top: 10vh;
+    left: 50%;
+    transform: translate(-50%);
+    font-weight: bold;
+    color: #fff;
+    background-color: #580088;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#webar-scene-selection .webar-scene-selection__container h1 {
+    color: transparent !important;
+    position: relative;
+}
+
+#webar-scene-selection .webar-scene-selection__container h1::after {
+    content: " ";
+    position: absolute;
+    color: #000;
+    left: 0;
+    right: 0;
+}
+
+html[lang|="en"] #webar-scene-selection .webar-scene-selection__container h1::after {
+    content: "Please select scene";
+}
+
+html[lang|="es"] #webar-scene-selection .webar-scene-selection__container h1::after {
+    content: "Por favor selecciona una escena";
+}
