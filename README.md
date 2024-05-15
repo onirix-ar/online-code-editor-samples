@@ -62,3 +62,7 @@
 ### Modules & Datastore
 
 - [Get product info example](get-product-info)
+
+### Safe area
+
+- [Control safe area](control-safe-area)
