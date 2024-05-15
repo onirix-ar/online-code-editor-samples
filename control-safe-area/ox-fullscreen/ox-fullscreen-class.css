@@ -1,0 +1,16 @@
+#webar-context-button {
+    display: none;
+}
+#ox-top-banner {
+    padding: 15px 20px;
+    background: #58008880;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    width: -webkit-fill-available;
+}
+
+.ox-fullscreen #ox-top-banner {
+    padding-top: 60px;
+}
