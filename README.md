@@ -17,6 +17,7 @@
 - [Content datasheets](datasheets-content)
 - [Customize surface placeholder](customize-surface-placeholder)
 - [Customize scene selection menu](customize-scene-menu)
+- [Control safe area](control-safe-area)
 
 ### Onirix Embed SDK
 
@@ -62,7 +63,3 @@
 ### Modules & Datastore
 
 - [Get product info example](get-product-info)
-
-### Safe area
-
-- [Control safe area](control-safe-area)

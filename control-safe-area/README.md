@@ -4,7 +4,7 @@ When viewing a full screen experience some devices have certain areas such as th
 
 To control this we have two ways:
 - The ox-fullscreen class, is a css class that is added to the body when the experience is displayed in fullscreen (Onirix Player or WebXR).
-    [Example](ox-fullscreen-class)
+    [Example](ox-fullscreen)
     <p style = 'text-align:center;'>
         <image
             src="./ox-fullscreen/ox-fullscreen.PNG"
