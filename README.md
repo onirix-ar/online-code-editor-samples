@@ -63,3 +63,4 @@
 ### Modules & Datastore
 
 - [Get product info example](get-product-info)
+- [Onirix WebAR debug module](onirix-webar-debug-module)
