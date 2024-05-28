@@ -18,6 +18,7 @@
 - [Customize surface placeholder](customize-surface-placeholder)
 - [Customize scene selection menu](customize-scene-menu)
 - [Control safe area](control-safe-area)
+- [Location areas component](location-areas)
 
 ### Onirix Embed SDK
 
