@@ -1,5 +1,5 @@
-import OnirixEmbedSDK from 'https://www.unpkg.com/@onirix/embed-sdk@1.8.0/dist/ox-embed-sdk.esm.js';
-import OnirixCameraModule from 'https://www.unpkg.com/@onirix/camera-controls-module@1.0.4/dist/ox-camera-controls-module.esm.js';
+import OnirixEmbedSDK from 'https://www.unpkg.com/@onirix/embed-sdk@1.10.0/dist/ox-embed-sdk.esm.js';
+import OnirixCameraModule from 'https://www.unpkg.com/@onirix/camera-controls-module@1.1.0/dist/ox-camera-controls-module.esm.js';
 
 
 /**
