@@ -35,6 +35,7 @@
 
 - [Take photos and video recording](ox-screen-capture-default-ui)
 - [Custom controls and customize preview component](ox-screen-capture-custom-ui)
+- [Add overlay (watermark, frame...)](ox-screen-capture-overlay)
 
 ### Onirix Camera Controls Module
 

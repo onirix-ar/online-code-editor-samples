@@ -1,5 +1,5 @@
-import OnirixEmbedSDK from "https://www.unpkg.com/@onirix/embed-sdk@1.8.0/dist/ox-embed-sdk.esm.js";
-import OnirixScreenCaptureLib from "https://unpkg.com/@onirix/screen-capture@1.1.0/dist/ox-screencapture-lib.esm.js";
+import OnirixEmbedSDK from "https://www.unpkg.com/@onirix/embed-sdk@1.11.2/dist/ox-embed-sdk.esm.js";
+import OnirixScreenCaptureLib from "https://unpkg.com/@onirix/screen-capture@1.3.0/dist/ox-screencapture-lib.esm.js";
 
 const embedSDK = new OnirixEmbedSDK();
 
