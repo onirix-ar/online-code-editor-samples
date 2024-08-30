@@ -1,4 +1,4 @@
-import OnirixEmbedSDK from "https://unpkg.com/@onirix/embed-sdk@1.10.0/dist/ox-embed-sdk.esm.js";
+import OnirixEmbedSDK from "https://unpkg.com/@onirix/embed-sdk@1.11.2/dist/ox-embed-sdk.esm.js";
 
 const ALLOWED_ELEMENTS_OIDS = [
     "<allowed_element_1_oid>",
