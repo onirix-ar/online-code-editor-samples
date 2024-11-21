@@ -36,3 +36,13 @@ html[lang|="en"] #webar-scene-selection .webar-scene-selection__container h1::af
 html[lang|="es"] #webar-scene-selection .webar-scene-selection__container h1::after {
     content: "Por favor selecciona una escena";
 }
+
+/* Remember to use the oid of the scene of your project. */
+#webar-scene-selection .webar-scene-selection__container 
+li[data-scene-oid="dfdf5759e71442e6b6231a3daafcaa2d"]::after {
+    content: "\2605"; 
+    position: absolute;
+    color: gold;
+    font-size: 20px;
+    line-height: 1; 
+}
