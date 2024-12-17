@@ -1,5 +1,5 @@
-import OnirixEmbedSDK from "https://unpkg.com/@onirix/embed-sdk@1.11.2/dist/ox-embed-sdk.esm.js";
-import OxScreenCaptureLib from "https://unpkg.com/@onirix/screen-capture@1.3.0/dist/ox-screencapture-lib.esm.js";
+import OnirixEmbedSDK from "https://unpkg.com/@onirix/embed-sdk@1.14.0/dist/ox-embed-sdk.esm.js";
+import OxScreenCaptureLib from "https://unpkg.com/@onirix/screen-capture@1.4.0/dist/ox-screencapture-lib.esm.js";
 
 const OVERLAY_ASSET_OID = '<your asset oid>';
 

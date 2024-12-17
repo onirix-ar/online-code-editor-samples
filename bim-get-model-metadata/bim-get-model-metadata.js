@@ -24,11 +24,12 @@ script.onload = function() {
 document.head.appendChild(script);
 
 // Import the Onirix Embed SDK
-import OnirixEmbedSDK from "https://unpkg.com/@onirix/embed-sdk@1.13.0/dist/ox-embed-sdk.esm.js";
+import OnirixEmbedSDK from "https://unpkg.com/@onirix/embed-sdk@1.14.0/dist/ox-embed-sdk.esm.js";
 
 // Instantiate and connect the Onirix Embed SDK
 const embedSDK = new OnirixEmbedSDK();
-embedSDK.connect();
+await embedSDK.connect();
+embedSDK.highlightBIMPieces(true);
 
 // Subscribe to the ELEMENT_CLICK event
 embedSDK.subscribe(OnirixEmbedSDK.Events.ELEMENT_CLICK, async (params) => {

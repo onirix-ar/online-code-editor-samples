@@ -65,6 +65,7 @@
 ### BIM features
 
 - [Get model metadata](bim-get-model-metadata)
+- [Customize the way parts are highlighted](bim-customize-highlight)
 - [Ask model for metadata](bim-ask-model-metadata)
 
 ### Modules & Datastore
