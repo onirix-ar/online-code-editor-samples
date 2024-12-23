@@ -1,0 +1,66 @@
+.ox-sheet.ox-hit-test-fallback {
+    background-color: #580088;
+}
+
+.ox-sheet.ox-hit-test-fallback .ox-sheet__header svg path {
+    fill: #FFF;
+}
+
+.ox-sheet.ox-hit-test-fallback .ox-sheet__header .ox-sheet__title {
+    position: relative; 
+    color: transparent; 
+}
+
+.ox-sheet.ox-hit-test-fallback .ox-sheet__header .ox-sheet__title::before {
+    content: "Your custom title here";
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #FFF; 
+    width: 100%; 
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.ox-sheet.ox-hit-test-fallback .ox-sheet__body p {
+    position: relative; 
+    color: transparent; 
+}
+
+.ox-sheet.ox-hit-test-fallback .ox-sheet__body p::before {
+    content: "Your custom description here";
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #FFF; 
+    width: 100%; 
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ox-sheet.ox-hit-test-fallback .ox-sheet__body button {
+    background-color: red;
+}
+
+.ox-sheet.ox-hit-test-fallback .ox-sheet__body button span.text {
+    position: relative; 
+    color: transparent; 
+}
+
+.ox-sheet.ox-hit-test-fallback .ox-sheet__body button span.text::before {
+    content: "Your custom text here";
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #FFF; 
+    width: 100%; 
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
