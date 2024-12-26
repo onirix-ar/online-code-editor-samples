@@ -19,6 +19,7 @@
 - [Customize scene selection menu](customize-scene-menu)
 - [Control safe area](control-safe-area)
 - [Location areas component](location-areas)
+- [Detection tips](detection-tips)
 
 ### Onirix Embed SDK
 
