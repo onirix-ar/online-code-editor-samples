@@ -20,6 +20,7 @@
 - [Control safe area](control-safe-area)
 - [Location areas component](location-areas)
 - [Detection tips](detection-tips)
+- [Wayfinding](wayfinding)
 
 ### Onirix Embed SDK
 
