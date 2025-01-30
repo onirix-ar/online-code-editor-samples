@@ -4,7 +4,7 @@
     color: #FFF;
 }
 
-#ox-wayfinding .ox-wayfinding-selector, #ox-wayfinding .ox-wayfinding__open  {
+#ox-wayfinding .ox-wayfinding-selector, #ox-wayfinding .ox-wayfinding__open,#ox-wayfinding .ox-wayfinding-travel {
     background-color: #F00;
 }
 
@@ -50,4 +50,8 @@
 
 #ox-wayfinding .ox-wayfinding-selector__list__overlay {
     background-image: (to bottom,rgba(255,0,0,.84) 0%,var(--color-core-white) 90%,var(--color-core-white))
+}
+
+#ox-wayfinding .ox-wayfinding-travel__close svg g {
+    fill: #F00;
 }
