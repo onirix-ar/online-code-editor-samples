@@ -1,0 +1,104 @@
+/* Change the style of the main container */
+#webar-mode-selection {
+    background-color: #545555 !important;
+  }
+  
+  /* Change the style of the headers */
+  #webar-mode-selection h1,
+  #webar-mode-selection h2 {
+    position: relative;
+    color: transparent; /* Hide the original text */
+  }
+  
+  #webar-mode-selection h1::before {
+    content: "Welcome to the AR adventure"; /* New text for the H1 */
+    color: #FFF;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  #webar-mode-selection h2::before {
+    content: "Join our fox on its virtual adventures."; /* New text for the H2 */
+    color: #FFF;
+    font-size: 15px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100vw;
+  }
+  
+  /* Change the style of the buttons */
+  #webar-mode-selection .container .btn {
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Change the style of the text inside the buttons */
+  #webar-mode-selection .container .btn p {
+    color: transparent;
+    position: relative;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  #webar-mode-selection .container .btn:nth-of-type(1) p::before {
+    content: "Place me upon the ground.";
+    color: red;
+    font-size: 15px;
+    position: absolute;
+    bottom: -80px;
+    right: -50px;
+  }
+  
+  #webar-mode-selection .container .btn:nth-of-type(2) p::before {
+    content: "Uncover the secret image.";
+    color: green;
+    font-size: 20px;
+    position: absolute;
+    top: -70px;
+    left: 60px;
+    text-align: left; 
+    max-width: 170px;
+    line-height: normal;
+  }
+  
+  /* Hide the original images */
+  #webar-mode-selection .container .btn img {
+    display: none;
+  }
+  
+  /* Add new images as background */
+  #webar-mode-selection .container .btn:nth-of-type(1)::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://www.onirix.com/ox-experiences/custom-ui-examples/fox_surface.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  #webar-mode-selection .container .btn:nth-of-type(2)::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://www.onirix.com/ox-experiences/custom-ui-examples/fox_marker.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  

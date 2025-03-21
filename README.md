@@ -17,6 +17,7 @@
 - [Content datasheets](datasheets-content)
 - [Customize surface placeholder](customize-surface-placeholder)
 - [Customize scene selection menu](customize-scene-menu)
+- [Customize tracking selection menu](customize-tracking-menu)
 - [Control safe area](control-safe-area)
 - [Location areas component](location-areas)
 - [Detection tips](detection-tips)
