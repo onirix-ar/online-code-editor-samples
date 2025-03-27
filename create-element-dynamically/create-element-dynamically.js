@@ -1,5 +1,14 @@
-import OnirixEmbedSDK from "https://www.unpkg.com/@onirix/embed-sdk@1.11.2/dist/ox-embed-sdk.esm.js";
-import uuid from "https://unpkg.com/uuid@latest/dist/esm-browser/v4.js";
+import OnirixEmbedSDK from "https://www.unpkg.com/@onirix/embed-sdk@1.17.0/dist/ox-embed-sdk.esm.js";
+ 
+// Generate random UUID v4
+function uuid() {
+    return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (char) {
+            const random = Math.random() * 16 | 0;
+            const value = char === 'x' ? random : (random & 0x3 | 0x8);
+            return value.toString(16);
+        }
+    );
+}
 
 const embedSDK = new OnirixEmbedSDK();
 embedSDK.connect();
