@@ -1,11 +1,11 @@
-import OnirixEmbedSDK from "https://www.unpkg.com/@onirix/embed-sdk@1.14.0/dist/ox-embed-sdk.esm.js";
-import OnirixScreenCaptureLib from "https://unpkg.com/@onirix/screen-capture@1.4.0/dist/ox-screencapture-lib.esm.js";
+import OnirixEmbedSDK from "https://cdn.jsdelivr.net/npm/@onirix/embed-sdk@1.18.0/+esm";
+import OxScreenCaptureLib from "https://cdn.jsdelivr.net/npm/@onirix/screen-capture@2.0.0/+esm";
 
 const embedSDK = new OnirixEmbedSDK();
 
 embedSDK.connect();
 
-const oxScreenCapture = new OnirixScreenCaptureLib(embedSDK);
+const oxScreenCapture = new OxScreenCaptureLib(embedSDK);
 
 // Remove UI and preview component
 const removeScreenCaptureUI = () => {
@@ -15,13 +15,13 @@ const removeScreenCaptureUI = () => {
 
 embedSDK.subscribe(OnirixEmbedSDK.Events.SCENE_LOAD_END, (params) => {
     // Default: take photo and show it on preview component
-    oxScreenCapture.addUI();
+    oxScreenCapture.init();
     
     // Take photo mode and download
-    // oxScreenCapture.addUI(false, false);
+    // oxScreenCapture.init(false, false);
     
     // Record video mode and download
-    // oxScreenCapture.addUI(true);
+    // oxScreenCapture.init(true);
 });
 
 // Activated when marker is lost

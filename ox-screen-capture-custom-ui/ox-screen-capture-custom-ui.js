@@ -1,11 +1,11 @@
-import OnirixEmbedSDK from "https://www.unpkg.com/@onirix/embed-sdk@1.14.0/dist/ox-embed-sdk.esm.js";
-import OnirixScreenCaptureLib from "https://unpkg.com/@onirix/screen-capture@1.4.0/dist/ox-screencapture-lib.esm.js";
+import OnirixEmbedSDK from "https://cdn.jsdelivr.net/npm/@onirix/embed-sdk@1.18.0/+esm";
+import OxScreenCaptureLib from "https://cdn.jsdelivr.net/npm/@onirix/screen-capture@2.0.0/+esm";
 
 const embedSDK = new OnirixEmbedSDK();
 
 embedSDK.connect();
 
-const oxScreenCapture = new OnirixScreenCaptureLib(embedSDK);
+const oxScreenCapture = new OxScreenCaptureLib(embedSDK);
 
 /** 
  * We assign each button to an action of the library
